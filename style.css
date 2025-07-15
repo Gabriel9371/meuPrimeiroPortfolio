@@ -7,9 +7,9 @@
 
 .icones {
     display: flex;
-    justify-content: center; /* centraliza na horizontal */
-    gap: 40px;               /* espaço entre os ícones */
-    margin-top: 10px;        /* sobe ou desce tudo */
+    justify-content: center; 
+    gap: 40px;               
+    margin-top: 10px;        
 }
 
 .icon {
@@ -20,7 +20,7 @@
 }
 
 .icon:hover {
-    transform: scale(1.2); /* efeito legal ao passar o mouse */
+    transform: scale(1.2); 
 }
 
 .hrzin{
