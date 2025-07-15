@@ -1,0 +1,28 @@
+.foto{
+    text-align: center;
+   
+    
+}
+
+
+.icones {
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    gap: 40px;               /* espaço entre os ícones */
+    margin-top: 10px;        /* sobe ou desce tudo */
+}
+
+.icon {
+    width: 38px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2); /* efeito legal ao passar o mouse */
+}
+
+.hrzin{
+    margin-top: 15px;
+}
