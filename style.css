@@ -12,6 +12,7 @@
     margin-top: 10px;        
 }
 
+
 .icon {
     width: 38px;
     height: auto;
@@ -19,17 +20,59 @@
     transition: transform 0.2s ease;
 }
 
+
 .icon:hover {
     transform: scale(1.2); 
 }
+
 
 .hrzin{
     margin-top: 29px;
 }
 
 
+
 .parag{
 
     font-family: Arial, Helvetica, sans-serif;
     color: #2f2c3b;
+}
+
+
+
+
+.sobremim{
+
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 8px;
+  background-color: #d1d1c1;
+  border-left: 5px solid #637963;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #333;
+
+}
+
+.sobre-mim h2 {
+  margin-top: 3;
+  color: #2c3e50;
+}
+
+.boxx{
+    padding: 20px;
+    background-color: #acb9ac;
+    margin: 40px auto;
+    margin-top: 2px;
+    margin-right: 1750px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.boxx img{
+    width: 60px;
+    text-align: center;
+
 }
