@@ -61,18 +61,34 @@
   color: #2c3e50;
 }
 
-.boxx{
-    padding: 20px;
-    background-color: #acb9ac;
-    margin: 40px auto;
-    margin-top: 2px;
-    margin-right: 1750px;
-    border-radius: 20px;
-    margin-left: 30px;
+
+
+
+.linguagens {
+    display: flex;
+    gap: 16px;            /* Espaço entre as caixinhas */
+   /* justify-content: center;*/
+    flex-wrap: wrap;
+    margin-top: 6px;
 }
 
-.boxx img{
-    width: 60px;
-    text-align: center;
+/* Agora sim, cada linguagem vira uma caixinha separada */
+.linguagem {
+    background-color: #c2cad1;
+    padding: 15px;
+    border-radius: 3px;
+    /*text-align: center; */
+    width: 100px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.6s;
+}
 
+.linguagem:hover {
+    transform: scale(1.04);
+}
+
+.linguagem img {
+    width: 41px;
+    height: 42px;
+    margin-bottom: 2px;
 }
